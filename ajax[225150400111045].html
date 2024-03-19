@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tugas 2 PemWeb</title>
+    </head>
+    <body>
+        <form id="formulir">
+            Nama: <input id="nama" type="text" name="nama" /> <br /><br />
+            NIM: <input id="nim" type="text" name="nim" /> <br /><br />
+            E-mail: <input id="email" type="text" name="email" /> <br /><br />
+            Gender:
+            <input
+                id="laki2"
+                type="radio"
+                name="gender"
+                value="Laki-laki"
+            />Laki-laki
+            <input
+                id="perempuan"
+                type="radio"
+                name="gender"
+                value="Perempuan"
+            />Perempuan <br /><br />
+            <label for="golonganDarah">Golongan Darah: </label>
+            <select name="golonganDarah" id="golonganDarah">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="O">O</option>
+                <option value="O">AB</option>
+            </select>
+            <br /><br />
+            <input id="submit" type="button" value="Submit" />
+        </form>
+        <br />
+        <div id="container"></div>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="ajax[225150400111045].js"></script>
+    </body>
+</html>
